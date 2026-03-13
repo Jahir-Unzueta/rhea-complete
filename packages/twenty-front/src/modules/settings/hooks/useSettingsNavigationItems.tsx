@@ -219,15 +219,15 @@ const useSettingsNavigationItems = (): SettingsNavigationSection[] => {
           Icon: IconMessage,
           isHidden: !isSupportChatConfigured,
         },
-        {
-          label: t`Documentation`,
-          onClick: () =>
-            window.open(
-              getDocumentationUrl({ locale: currentWorkspaceMember?.locale }),
-              '_blank',
-            ),
-          Icon: IconHelpCircle,
-        },
+        // {
+        //   label: t`Documentation`,
+        //   onClick: () =>
+        //     window.open(
+        //       getDocumentationUrl({ locale: currentWorkspaceMember?.locale }),
+        //       '_blank',
+        //     ),
+        //   Icon: IconHelpCircle,
+        // },
         {
           label: t`Logout`,
           onClick: signOut,

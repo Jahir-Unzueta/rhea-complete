@@ -70,13 +70,13 @@ export const NavigationDrawerOtherSection = () => {
           Icon={IconSettings}
           onClick={handleSettingsClick}
         />
-        <NavigationDrawerItem
+        {/* <NavigationDrawerItem
           label={t`Documentation`}
           to={getDocumentationUrl({
             locale: currentWorkspaceMember?.locale,
           })}
           Icon={IconHelpCircle}
-        />
+        /> */}
       </AnimatedExpandableContainer>
     </NavigationDrawerSection>
   );
